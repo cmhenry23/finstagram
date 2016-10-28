@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            /*Global Odometer*/ 
+              <link rel="stylesheet" href="http://github.hubspot.com/odometer/themes/odometer-theme-car.css" />
+                <script src="http://github.hubspot.com/odometer/odometer.js"></script>
+
+                <script>
+                setTimeout(function(){
+                odometer.innerHTML = 456;
+                }, 1000);
+                </script>
+                
+            <style>
+               ul {
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    overflow: hidden;
+                    background-color: #333;
+                  }
+
+               li {
+                    float: left;
+                  }
+
+               li a {
+                    display: block;
+                    color: white;
+                    text-align: center;
+                    padding: 14px 16px;
+                    text-decoration: none;
+                  }
+            </style>
+        </head>
+        <body>
+
+            <ul>
+              <li><img src="https://lh3.googleusercontent.com/aYbdIM1abwyVSUZLDKoE0CDZGRhlkpsaPOg9tNnBktUQYsXflwknnOn2Ge1Yr7rImGk=w300" height="40px"></li>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#news">Following</a></li>
+              <li><a href="#contact">Followers</a></li>
+              <li><a href="#about">My Profile</a></li>
+            </ul>
+       
+               <div id="odometer" class="odometer">123</div>
+       
+        </body>
+    </html>
